@@ -3,8 +3,8 @@
     "displayName": "vscode-python-highlight-html-sql",
     "description": "Highlight Python strings as html, sql.",
     "version": "1.1.0",
+    "icon": "icon.png",
     "publisher": "gnat",
-    "icon": "docs/logo.png",
     "repository": {
         "url": "https://github.com/gnat/vscode-python-highlight-html-sql"
     },
