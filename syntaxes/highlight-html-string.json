@@ -1,0 +1,31 @@
+{
+  "fileTypes": [
+    "py"
+  ],
+  "injectionSelector": "L:string.quoted.multi.python, L:string.quoted.docstring.multi.python, L:meta.fstring.python - (comment.line.number-sign.python, punctuation.definition.comment.python)",
+  "patterns": [
+    {
+      "begin": "(</?)(\\w[^\\s>]*)(?<!/)",
+      "end": "((?: ?/)?>)",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.definition.tag.begin.html"
+        },
+        "2": {
+          "name": "entity.name.tag.html"
+        }
+      },
+      "endCaptures": {
+        "1": {
+          "name": "punctuation.definition.tag.end.html"
+        }
+      },
+      "patterns": [
+        {
+          "include": "text.html.basic#attribute"
+        }
+      ]
+    }
+  ],
+  "scopeName": "python-html.injection"
+}

@@ -1,0 +1,42 @@
+{
+    "name": "vscode-python-highlight-html-sql",
+    "displayName": "vscode-python-highlight-html-sql",
+    "description": "Highlight Python strings as html, sql.",
+    "version": "1.1.0",
+    "publisher": "gnat",
+    "icon": "docs/logo.png",
+    "repository": {
+        "url": "https://github.com/gnat/vscode-python-highlight-html-sql"
+    },
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "path": "./syntaxes/highlight-sql-string.json",
+                "scopeName": "python-sql.injection",
+                "injectTo": [
+                    "source.python"
+                ],
+                "embeddedLanguages": {
+                    "meta.embedded.sql": "sql"
+                }
+            },
+            {
+                "path": "./syntaxes/highlight-html-string.json",
+                "scopeName": "python-html.injection",
+                "injectTo": [
+                    "source.python"
+                ],
+                "embeddedLanguages": {
+                    "meta.embedded.block.html": "html"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "fileTypes": [
+    "py"
+  ],
+  "injectionSelector": "L:string.quoted.multi.python, L:string.quoted.docstring.multi.python, L:meta.fstring.python - (comment.line.number-sign.python, punctuation.definition.comment.python)",
+  "patterns": [
+    {
+      "begin": "\\s*(SELECT|WITH|INSERT|UPDATE|DELETE)",
+      "end": "(?=\"\"\"|'''|;)",
+      "beginCaptures": {
+        "1": {
+          "name": "keyword.other.DML.sql"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.sql"
+        }
+      ]
+    }
+  ],
+  "scopeName": "python-sql.injection"
+}
