@@ -1,13 +1,10 @@
 # Python String Highlighter for HTML, SQL
 Highlight HTML, SQL in Python Strings for VSCode, Codium.
 
-Embed HTML, Python Server Pages style.
-
-# Highlight HTML in Python for Sublime!
-Kinda like:
+Embed HTML. Kinda like:
 * PHP
 * Python Server Pages (PSP)
-* PyCharm SQL highlighting.
+* PyCharm SQL highlighting
 
 Pairs well with:
 * Darkstar: https://github.com/lllama/dark-star
