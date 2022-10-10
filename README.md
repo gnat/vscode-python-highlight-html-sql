@@ -2,7 +2,7 @@
 Highlight HTML, SQL in Python Strings for VSCode, Codium.
 
 Embed HTML. Kinda like:
-* PHP
+* PHP.
 * Python Server Pages (PSP)
 * PyCharm SQL highlighting
 
@@ -15,7 +15,7 @@ Pairs well with:
 ![image](https://user-images.githubusercontent.com/24665/183111942-9d6e8dc7-6b82-47fb-9492-07d25ffc6523.png)
 
 
-## 🚨 Install Instructions (VSCodium)
+## 🚨 Install Instructions (Codium)
 
 1. Download as zip (under the code button) or clone.
 2. Add **vscode-python-highlight-html-sql** folder to:
