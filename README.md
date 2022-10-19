@@ -35,7 +35,30 @@ Pairs well with:
 
 * Textmate for the regexes: https://github.com/textmate
 * Original idea improved upon: https://github.com/ptweir/python-string-sql
-​
+
 ## Alternative for Sublime Text
 
 * https://github.com/gnat/sublime-python-html/
+
+## Compliments well with [Highlight](https://github.com/fabiospampinato/vscode-highlight):
+
+* Dark background for comment blocks (HTML, SQL):
+```
+    "highlight.regexes": {
+        "(\"\"\"((.|\n)*)\"\"\")": {
+            "regExFlags":"gim",
+            "decorations": [
+                {
+                    "backgroundColor": "#000000",
+                }
+            ]
+        },
+        "(\\'\\'\\'((.|\n)*)\\'\\'\\')": {
+            "regExFlags":"gim",
+            "decorations": [
+                {
+                    "backgroundColor": "#000000",
+                }
+            ]
+        },
+```
