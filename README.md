@@ -47,7 +47,7 @@ Pairs well with:
 * Highlight multiline language blocks (Similar to Sublime or TextMate).
 ```
 "highlight.regexes": {
-    "(\\\"\\\"\\\"((.|\\n)*)\\\"\\\"\\\")" :{
+    "(\\\"\\\"\\\"((.|\\n)+?)\\\"\\\"\\\")" :{
         "regExFlags":"gims",
         "decorations": [
             {
@@ -56,7 +56,7 @@ Pairs well with:
             }
         ]
     },
-    "(\\'\\'\\'((.|\\n)*)\\'\\'\\')" :{
+    "(\\'\\'\\'((.|\\n)+?)\\'\\'\\')" :{
         "regExFlags":"gims",
         "decorations": [
             {
