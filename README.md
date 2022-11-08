@@ -44,7 +44,7 @@ Pairs well with:
 
 ## Compliments well with [Highlight](https://github.com/fabiospampinato/vscode-highlight):
 
-* Dark background for comment blocks (HTML, SQL):
+* Highlight multiline language blocks (Similar to Sublime or TextMate).
 ```
 "highlight.regexes": {
     "(\\\"\\\"\\\"((.|\\n)*)\\\"\\\"\\\")" :{
