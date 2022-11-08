@@ -44,7 +44,7 @@ Pairs well with:
 
 ## Compliments well with [Highlight](https://github.com/fabiospampinato/vscode-highlight):
 
-* Highlight multiline language blocks (Similar to Sublime or TextMate).
+* Highlight multiline language blocks (Similar to Sublime or TextMate, but not quite as good due to limitations in VSCode).
 ```
 "highlight.regexes": {
     "(\\\"\\\"\\\"((.|\\n)+?)\\\"\\\"\\\")" :{
