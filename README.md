@@ -44,21 +44,24 @@ Pairs well with:
 
 * Dark background for comment blocks (HTML, SQL):
 ```
-    "highlight.regexes": {
-        "(\"\"\"((.|\n)*)\"\"\")": {
-            "regExFlags":"gim",
-            "decorations": [
-                {
-                    "backgroundColor": "#000000",
-                }
-            ]
-        },
-        "(\\'\\'\\'((.|\n)*)\\'\\'\\')": {
-            "regExFlags":"gim",
-            "decorations": [
-                {
-                    "backgroundColor": "#000000",
-                }
-            ]
-        },
+"highlight.regexes": {
+    "(\\\"\\\"\\\"((.|\n)*)\\\"\\\"\\\")" :{
+        "regExFlags":"gims",
+        "decorations": [
+            {
+                "backgroundColor": "#000000",
+                "overviewRulerColor": "#000000",
+            }
+        ]
+    },
+    "(\\'\\'\\'((.|\n)*)\\'\\'\\')" :{
+        "regExFlags":"gims",
+        "decorations": [
+            {
+                "backgroundColor": "#000000",
+                "overviewRulerColor": "#000000",
+            }
+        ]
+    },
+}
 ```
