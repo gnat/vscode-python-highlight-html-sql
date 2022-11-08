@@ -1,6 +1,8 @@
 # Python String Highlighter for HTML, SQL
 Highlight HTML, SQL in Python Strings for VSCode, Codium.
 
+Github: https://github.com/gnat/vscode-python-highlight-html-sql
+
 Embed HTML. Kinda like:
 * PHP.
 * Python Server Pages (PSP)
@@ -45,7 +47,7 @@ Pairs well with:
 * Dark background for comment blocks (HTML, SQL):
 ```
 "highlight.regexes": {
-    "(\\\"\\\"\\\"((.|\n)*)\\\"\\\"\\\")" :{
+    "(\\\"\\\"\\\"((.|\\n)*)\\\"\\\"\\\")" :{
         "regExFlags":"gims",
         "decorations": [
             {
@@ -54,7 +56,7 @@ Pairs well with:
             }
         ]
     },
-    "(\\'\\'\\'((.|\n)*)\\'\\'\\')" :{
+    "(\\'\\'\\'((.|\\n)*)\\'\\'\\')" :{
         "regExFlags":"gims",
         "decorations": [
             {
