@@ -5,7 +5,7 @@
   "injectionSelector": "L:string.quoted.multi.python, L:string.quoted.docstring.multi.python, L:meta.fstring.python - (comment.line.number-sign.python, punctuation.definition.comment.python)",
   "patterns": [
     {
-      "begin": "\\s*(SELECT|WITH|INSERT|UPDATE|DELETE|ALTER|ANALYZE|ATTACH|BEGIN|COMMIT|CREATE|DELETE|DETACH|DROP|EXPLAIN|INSERT|PRAGMA|REINDEX|RELEASE|REPLACE|ROLLBACK|SAVEPOINT|SELECT|UPDATE|VACUUM)",
+      "begin": "\\s*(ALTER|ANALYZE|ATTACH|BEGIN|COMMIT|CREATE|DELETE|DELETE|DETACH|DROP|EXPLAIN|INSERT|INSERT|PRAGMA|REINDEX|RELEASE|REPLACE|ROLLBACK|SAVEPOINT|SELECT|SET|UPDATE|UPDATE|VACUUM|WITH)",
       "end": "\\s*(?=\"\"\"|'''|;)",
       "beginCaptures": {
         "1": {
